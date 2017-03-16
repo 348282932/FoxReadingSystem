@@ -16,7 +16,7 @@ namespace FoxReadingSystem.EntityFramework
          *   pass connection string name to base classes. ABP works either way.
          */
         public FoxReadingSystemDbContext()
-            : base("Default")
+            : base("FoxReadingSystemEntities")
         {
 
         }

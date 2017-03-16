@@ -13,7 +13,7 @@ namespace FoxReadingSystem
         {
             Database.SetInitializer(new CreateDatabaseIfNotExists<FoxReadingSystemDbContext>());
 
-            Configuration.DefaultNameOrConnectionString = "Default";
+            Configuration.DefaultNameOrConnectionString = "FoxReadingSystemEntities";
         }
 
         public override void Initialize()
